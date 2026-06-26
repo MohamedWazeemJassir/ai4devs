@@ -1,12 +1,19 @@
 import Header from "./components/Header";
 import Card from "./components/Card";
 import Footer from "./components/Footer";
+import { cardData } from "./data/data";
 
 function App() {
   return (
     <>
       <Header />
-      <Card name="test" category="Chatbot" url="https://gemini.google.com" label="Gemini" />
+      {cardData.map((cardItem) => (
+        <Card
+          name={cardItem.name}
+          category={cardItem.category}
+          url={cardItem.url}
+        />
+      ))}
       <Footer />
     </>
   );
