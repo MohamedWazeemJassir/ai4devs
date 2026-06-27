@@ -4,17 +4,20 @@ export const cardData = [
         name: "ChatGPT",
         category: "Chatbot",
         url: "https://chatgpt.com",
+        pricing: "freemium",
     },
     {
         id: 2,
         name: "Claude",
         category: "Chatbot",
         url: "https://",
+        pricing: "freemium",
     },
     {
         id: 3,
         name: "Gemini",
         category: "Chatbot",
         url: "https://gemini.google.com",
+        pricing: "freemium",
     }
 ]

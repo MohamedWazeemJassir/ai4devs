@@ -12,6 +12,7 @@ function App() {
           name={cardItem.name}
           category={cardItem.category}
           url={cardItem.url}
+          pricing={cardItem.pricing}
         />
       ))}
       <Footer />
