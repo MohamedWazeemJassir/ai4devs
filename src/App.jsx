@@ -7,14 +7,16 @@ function App() {
   return (
     <>
       <Header />
-      {cardData.map((cardItem) => (
-        <Card
-          name={cardItem.name}
-          category={cardItem.category}
-          url={cardItem.url}
-          pricing={cardItem.pricing}
-        />
-      ))}
+      <div className="flex flex-nowrap">
+        {cardData.map((cardItem) => (
+          <Card
+            name={cardItem.name}
+            category={cardItem.category}
+            url={cardItem.url}
+            pricing={cardItem.pricing}
+          />
+        ))}
+      </div>
       <Footer />
     </>
   );
