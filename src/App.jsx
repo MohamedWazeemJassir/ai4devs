@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Header />
-      <div className="flex flex-nowrap">
+      <div className="flex flex-wrap p-10">
         {cardData.map((cardItem) => (
           <Card
             name={cardItem.name}
