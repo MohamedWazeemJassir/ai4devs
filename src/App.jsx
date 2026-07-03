@@ -10,6 +10,7 @@ function App() {
       <div className="flex flex-wrap p-10">
         {cardData.map((cardItem) => (
           <Card
+            key={cardItem.id}
             name={cardItem.name}
             category={cardItem.category}
             url={cardItem.url}
