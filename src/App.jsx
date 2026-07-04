@@ -15,6 +15,7 @@ function App() {
             category={cardItem.category}
             url={cardItem.url}
             pricing={cardItem.pricing}
+            description={cardItem.description}
           />
         ))}
       </div>

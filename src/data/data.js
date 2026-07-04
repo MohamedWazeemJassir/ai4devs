@@ -5,6 +5,7 @@ export const cardData = [
         category: "Chatbot",
         url: "https://chatgpt.com",
         pricing: "freemium",
+        description:"Most popular model.",
     },
     {
         id: 2,
@@ -12,6 +13,7 @@ export const cardData = [
         category: "Chatbot",
         url: "https://claude.ai",
         pricing: "freemium",
+        description:"Most popular model.",
     },
     {
         id: 3,
@@ -19,6 +21,7 @@ export const cardData = [
         category: "Chatbot",
         url: "https://gemini.google.com",
         pricing: "freemium",
+        description:"Most popular model.",
     },
     {
         id: 4,
@@ -26,6 +29,7 @@ export const cardData = [
         category: "Chatbot",
         url: "https://gemini.google.com",
         pricing: "freemium",
+        description:"Most popular model.",
     },
     {
         id: 5,
@@ -33,6 +37,7 @@ export const cardData = [
         category: "Chatbot",
         url: "https://gemini.google.com",
         pricing: "freemium",
+        description:"Most popular model.",
     },
     {
         id: 6,
@@ -40,6 +45,7 @@ export const cardData = [
         category: "Chatbot",
         url: "https://gemini.google.com",
         pricing: "freemium",
+        description:"Most popular model.",
     },
     {
         id: 7,
@@ -47,6 +53,7 @@ export const cardData = [
         category: "Chatbot",
         url: "https://gemini.google.com",
         pricing: "freemium",
+        description:"Most popular model.",
     },
     {
         id: 8,
@@ -54,6 +61,7 @@ export const cardData = [
         category: "Chatbot",
         url: "https://gemini.google.com",
         pricing: "freemium",
+        description:"Most popular model.",
     },
     {
         id: 9,
@@ -61,5 +69,6 @@ export const cardData = [
         category: "Chatbot",
         url: "https://gemini.google.com",
         pricing: "freemium",
+        description:"Most popular model.",
     }
 ]
