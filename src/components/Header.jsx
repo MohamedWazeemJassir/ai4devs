@@ -1,21 +1,28 @@
 function Header() {
   return (
-    <header className="flex h-15 mb-18 pt-5 font-mono">
-      <a href="/" className="text-2xl ml-15 mt-5">
+    <header className="sticky flex font-mono h-20">
+      <a
+        href="/"
+        className="text-2xl font-medium tracking-tight hover:text-violet-500"
+      >
         ai4devs
       </a>
-      <nav className="pl-20 pt-5 pb-3 text-xl">
+
+      <form action="">
         <input
-          type="text"
-          name=""
-          id=""
-          className="border rounded border-amber-50 p-2 h-8 mr-3 ml-200"
-          placeholder="john@expample.com"
+          type="email"
+          name="email"
+          id="email"
+          className="rounded px-5 h-10 focus:border-sky-500 disabled:border-gray-200"
+          placeholder="Get weekly AI tools updates"
         />
-        <button type="submit" className="">
+        <button
+          type="submit"
+          className="rounded font-semibold bg-violet-500 ml-3 p-2 hover:bg-violet-800"
+        >
           Subscribe
         </button>
-      </nav>
+      </form>
     </header>
   );
 }
