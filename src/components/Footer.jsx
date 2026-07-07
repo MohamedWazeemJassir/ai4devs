@@ -2,8 +2,8 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="absolute bottom-0 left-0 w-full text-center font-mono">
-      ai4devs. Made for devs.
+    <div className="sticky bottom-0 left-0 w-full text-center font-mono">
+      © 2026 ai4devs · Made for developers who love to ship fast
     </div>
   );
 }

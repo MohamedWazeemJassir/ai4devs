@@ -70,5 +70,29 @@ export const cardData = [
         url: "https://gemini.google.com",
         pricing: "freemium",
         description:"Most popular model.",
+    },
+    {
+        id: 10,
+        name: "Gemini",
+        category: "Chatbot",
+        url: "https://gemini.google.com",
+        pricing: "freemium",
+        description:"Most popular model.",
+    },
+    {
+        id: 11,
+        name: "Gemini",
+        category: "Chatbot",
+        url: "https://gemini.google.com",
+        pricing: "freemium",
+        description:"Most popular model.",
+    },
+    {
+        id: 12,
+        name: "Gemini",
+        category: "Chatbot",
+        url: "https://gemini.google.com",
+        pricing: "freemium",
+        description:"Most popular model.",
     }
 ]
