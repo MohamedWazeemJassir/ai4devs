@@ -1,14 +1,14 @@
 function Header() {
   return (
-    <header className="w-full py-8 font-mono text-center">
+    <header className="w-full py-12 font-mono text-center">
       <a
         href="/"
-        className="text-2xl font-medium tracking-tight hover:text-violet-500"
+        className="absolute top-10 left-20 text-2xl font-medium tracking-tight hover:text-violet-500"
       >
         ai4devs
       </a>
 
-      <form action="">
+      <form action="" className="absolute top-10 right-20">
         <input
           type="email"
           name="email"
