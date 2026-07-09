@@ -1,6 +1,6 @@
 function Header() {
   return (
-    <header className="sticky flex font-mono h-20">
+    <header className="w-full py-8 font-mono text-center">
       <a
         href="/"
         className="text-2xl font-medium tracking-tight hover:text-violet-500"
