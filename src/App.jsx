@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Header />
-      <div className="flex flex-wrap p-10">
+      <div className="flex flex-wrap p-10 gap-10 justify-center">
         {cardData.map((cardItem) => (
           <Card
             key={cardItem.id}
