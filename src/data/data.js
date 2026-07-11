@@ -6,6 +6,7 @@ export const cardData = [
         url: "https://chatgpt.com",
         pricing: "freemium",
         description:"Most popular model.",
+        logo: "OpenAI",
     },
     {
         id: 2,
@@ -14,6 +15,7 @@ export const cardData = [
         url: "https://claude.ai",
         pricing: "freemium",
         description:"Most popular model.",
+        logo: "Claude",
     },
     {
         id: 3,
@@ -22,14 +24,16 @@ export const cardData = [
         url: "https://gemini.google.com",
         pricing: "freemium",
         description:"Most popular model.",
+        logo: "Gemini",
     },
     {
         id: 4,
-        name: "Gemini",
+        name: "Deepseek",
         category: "Chatbot",
         url: "https://gemini.google.com",
         pricing: "freemium",
         description:"Most popular model.",
+        logo: "DeepSeek",
     },
     {
         id: 5,
@@ -38,6 +42,7 @@ export const cardData = [
         url: "https://gemini.google.com",
         pricing: "freemium",
         description:"Most popular model.",
+        logo: "Gemini",
     },
     {
         id: 6,
@@ -46,6 +51,7 @@ export const cardData = [
         url: "https://gemini.google.com",
         pricing: "freemium",
         description:"Most popular model.",
+        logo: "Gemini",
     },
     {
         id: 7,
@@ -54,6 +60,7 @@ export const cardData = [
         url: "https://gemini.google.com",
         pricing: "freemium",
         description:"Most popular model.",
+        logo: "Gemini",
     },
     {
         id: 8,
@@ -62,6 +69,7 @@ export const cardData = [
         url: "https://gemini.google.com",
         pricing: "freemium",
         description:"Most popular model.",
+        logo: "Gemini",
     },
     {
         id: 9,
@@ -70,6 +78,7 @@ export const cardData = [
         url: "https://gemini.google.com",
         pricing: "freemium",
         description:"Most popular model.",
+        logo: "Gemini",
     },
     {
         id: 10,
@@ -78,6 +87,7 @@ export const cardData = [
         url: "https://gemini.google.com",
         pricing: "freemium",
         description:"Most popular model.",
+        logo: "Gemini",
     },
     {
         id: 11,
@@ -86,6 +96,7 @@ export const cardData = [
         url: "https://gemini.google.com",
         pricing: "freemium",
         description:"Most popular model.",
+        logo: "Gemini",
     },
     {
         id: 12,
@@ -94,5 +105,6 @@ export const cardData = [
         url: "https://gemini.google.com",
         pricing: "freemium",
         description:"Most popular model.",
+        logo: "Gemini",
     }
 ]

@@ -16,6 +16,7 @@ function App() {
             url={cardItem.url}
             pricing={cardItem.pricing}
             description={cardItem.description}
+            logo={cardItem.logo}
           />
         ))}
       </div>
