@@ -13,7 +13,7 @@ function Header() {
           type="email"
           name="email"
           id="email"
-          className="rounded border px-5 h-10 w-full"
+          className="rounded border px-5 h-10 w-full focus:bg-gray-600"
           placeholder="Get weekly AI tools updates"
         />
         <button
