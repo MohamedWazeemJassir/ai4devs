@@ -42,7 +42,7 @@ export const cardData = [
         url: "https://gemini.google.com",
         pricing: "freemium",
         description:"Most popular model.",
-        logo: "Gemini",
+        logo: "Kimi",
     },
     {
         id: 6,

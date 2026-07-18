@@ -3,18 +3,19 @@ function Header() {
     <header className="w-full flex py-12 font-mono text-center">
       <a
         href="/"
-        className="top-10 ml-25 text-2xl font-medium tracking-tight hover:text-violet-500"
+        className="w-full sm:w-fit sm:ml-25 text-2xl font-medium tracking-tight hover:text-violet-500"
       >
         ai4devs
       </a>
 
-      <form action="" className="w-1/3 top-10 mr-15 flex ml-auto">
+      <form action="" className="hidden w-1/3 h-1/2 mr-15 sm:flex ml-auto">
         <input
           type="email"
           name="email"
           id="email"
-          className="rounded border px-5 h-10 w-full focus:bg-gray-600"
-          placeholder="Get weekly AI tools updates"
+          autoComplete="on"
+          className="border px-5 h-10 w-full"
+          placeholder="Your email address"  
         />
         <button
           type="submit"
