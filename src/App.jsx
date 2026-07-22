@@ -1,22 +1,37 @@
 import Header from "./components/Header";
 import Card from "./components/Card";
 import Footer from "./components/Footer";
-import { cardData } from "./data/data";
+import { supabase } from "../utils/supabase";
+import { useState, useEffect } from "react";
 
 function App() {
+  const [tools, setTools] = useState([]);
+
+  useEffect(() => {
+    async function getTools() {
+      const { data, error } = await supabase.from("ai_tools").select("*");
+      if (error) {
+        console.error(error);
+      } else {
+        setTools(data);
+      }
+    }
+    getTools();
+  }, []);
+
   return (
     <>
       <Header />
       <div className="flex flex-wrap p-10 gap-10 justify-center">
-        {cardData.map((cardItem) => (
+        {tools.map((tool) => (
           <Card
-            key={cardItem.id}
-            name={cardItem.name}
-            category={cardItem.category}
-            url={cardItem.url}
-            pricing={cardItem.pricing}
-            description={cardItem.description}
-            logo={cardItem.logo}
+            key={tool.id}
+            name={tool.name}
+            category={tool.category}
+            url={tool.url}
+            pricing={tool.pricing}
+            description={tool.description}
+            logo={tool.logo}
           />
         ))}
       </div>
