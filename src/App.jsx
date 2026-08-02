@@ -20,9 +20,9 @@ function App() {
   }, []);
 
   return (
-    <>
+    <div className="min-h-screen flex flex-col">
       <Header />
-      <div className="flex flex-wrap p-10 gap-10 justify-center">
+      <div className="grid grid-cols-[repeat(auto-fill,minmax(280px,1fr))] gap-10 p-10 grow">
         {tools.map((tool) => (
           <Card
             key={tool.id}
@@ -36,7 +36,7 @@ function App() {
         ))}
       </div>
       <Footer />
-    </>
+    </div>
   );
 }
 

@@ -1,0 +1,25 @@
+[build]
+  # Adjust the build command to your project's setup (npm, yarn, pnpm, etc.)
+  command = "npm run build"
+  # Change publish to the folder your build outputs (dist, build, public, out, etc.)
+  publish = "dist"
+  # Optional: directory for Netlify Functions (if any)
+  functions = "functions"
+
+[dev]
+  # Local dev server settings (optional)
+  command = "npm run start"
+
+[[redirects]]
+  # SPA fallback for single-page apps
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[headers]
+  [[headers.values]]
+  for = "/*"
+  [headers.values.headers]
+  X-Frame-Options = "DENY"
+  X-Content-Type-Options = "nosniff"
+  Referrer-Policy = "no-referrer-when-downgrade"
