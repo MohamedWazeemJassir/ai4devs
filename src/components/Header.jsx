@@ -2,8 +2,8 @@ function Header() {
   return (
     <header>
       <div className="w-full flex py-12 font-mono text-center">
-        <span className="w-full sm:w-fit sm:ml-15 text-3xl italic font-bold font-poppins tracking-tight">
-        <img src="/logo.svg" className="h-12 ml-5" />
+        <span className="w-full sm:w-fit sm:ml-18 text-3xl italic font-bold font-poppins tracking-tight">
+        <img src="/logo.svg" className="h-12" />
         </span>
         <form action="" className="hidden w-1/3 h-1/2 mr-15 sm:flex ml-auto">
           <input
