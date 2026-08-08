@@ -6,7 +6,7 @@ function Card({ logo, name, url, description, category, pricing }) {
   return (
     <div className="border border-zinc-800 bg-zinc-900 shadow-gray-300 hover:border-violet-500 hover:shadow-lg hover:shadow-violet-500 p-6 w-full h-fit rounded delay-75 duration-150 transition hover:-translate-y-2 space-y-3"> 
       <div className="flex gap-3 items-center">
-        {Avatar && <Avatar size={40} />}
+        {Avatar ? <Avatar size={40} /> : <img src="/logo.svg" className="w-10 h-10 object-contain" />}
         <h2 className="text-2xl">{name}</h2>
         <a
           href={url}
@@ -17,7 +17,7 @@ function Card({ logo, name, url, description, category, pricing }) {
           <FaExternalLinkAlt />
         </a>
       </div>
-      <p>{description}</p>
+      <p className="min-h-8">{description}</p>
       <div className="flex gap-2">
         <span className="p-2 rounded bg-red-700">{category}</span>
         <span className="p-2 rounded bg-yellow-700">{pricing}</span>
